@@ -39,3 +39,15 @@ docker-compose up -d
 - Refresh (F5): O carregamento será instantâneo (menos de 0.005s). O status indicará "Redis Cache".
 
 - Expiração: Aguarde 10 segundos e atualize novamente. O ciclo se repetirá, pois o cache terá expirado.
+
+## Painel redis
+
+1. Acesse no seu navegador: http://localhost:5540.
+
+2. Ao abrir, clique em "Add Redis Database".
+
+3. No campo Host, digite redis (o nome do serviço definido no docker-compose).
+
+4. No campo Port, mantenha 6379.
+
+5. Dê um nome para a conexão (ex: "POC Cache") e clique em Add Redis Database.
